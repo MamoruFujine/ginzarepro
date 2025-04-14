@@ -1,0 +1,18 @@
+          <div class="doctoreat--staff">
+            <div class="doctoreat__img--staff">
+		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/doctor__img--staff--nagao.jpg" alt="永尾光一（東邦大学泌尿器科教授 リプロダクションセンター長）" />
+            </div>
+            <div class="doctoreat__biography">
+            <?php if( is_single('2951') ) : ?>
+              <p class="doctoreat__biography--belong">
+                Supervising doctor on this page
+              </p>
+              <p class="doctoreat__biography--name"><a href="/about-koichi-nagao/" target="_blank">Koichi Nagao<br>(Professor, Department of Urology, Toho University, Director of Reproduction Center)</a></p>
+            <?php else: ?>
+              <p class="doctoreat__biography--belong">
+                このページの執筆医師
+              </p>
+              <p class="doctoreat__biography--name"><a href="/about-koichi-nagao/" target="_blank">永尾 光一<br>（東邦大学泌尿器科教授 リプロダクションセンター長）</a></p>
+            <?php endif; ?>
+            </div>
+          </div>

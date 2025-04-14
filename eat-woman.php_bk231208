@@ -1,0 +1,11 @@
+          <div class="doctoreat--staff">
+            <div class="doctoreat__img--staff">
+		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/doctor__img--staff--nagao.jpg" alt="永尾光一（東邦大学泌尿器科教授 リプロダクションセンター長）" />
+            </div>
+            <div class="doctoreat__biography">
+              <p class="doctoreat__biography--belong">
+                このページの監修医師
+              </p>
+              <p class="doctoreat__biography--name"><a href="/woman/w-staff/#aboutNagao" target="_blank">永尾光一<br>（東邦大学泌尿器科教授 リプロダクションセンター長）</a></p>
+            </div>
+          </div>
